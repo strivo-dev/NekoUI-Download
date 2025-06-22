@@ -44,15 +44,31 @@ Untuk memulai, unduh berkas mod .jar dari salah satu platform tepercaya atau sum
 ### Menggunakan launcher custom?
 > Jika Anda menggunakan MultiMC, Prism Launcher, GDLauncher, atau launcher kustom lainnya, cukup tambahkan mod ke folder mods instance, atau impor menggunakan pengelola mod bawaan launcher.
 ****
+### Kompatibilitas  
+NekoUI sangat berfokus pada kustomisasi antarmuka pengguna (UI), termasuk tata letak dan visual latar belakang. Akibatnya, **mod yang juga memodifikasi antarmuka pengguna Minecraft atau rendering latar belakang** dapat bertabrakan dengan NekoUI.  
+
+Sumber ketidakkompatibilitas yang umum meliputi:
+- Mod yang merombak atau mengganti menu utama atau elemen HUD.
+- Mod terkait shader yang memodifikasi lapisan UI atau menerapkan pemrosesan pasca pada elemen 2D.
+- Mod yang mengubah cara gambar latar belakang atau tekstur dimuat dan dirender.
+
+Jika Anda mengalami masalah seperti elemen yang menimpa, latar belakang rusak, atau UI tidak tampil sesuai harapan, silakan periksa daftar mod Anda untuk potensi konflik dengan mod yang mengubah UI.
+****
+### Rekomendasi
+Untuk meningkatkan pengalaman UI saat menggunakan NekoUI, sangat disarankan untuk menginstal **mod kustomisasi font** yang mengganti font default Minecraft.
+
+Mod yang disarankan:
+- [BetterFonts](https://www.curseforge.com/minecraft/mc-mods/betterfonts)
+- [Smooth Font](https://www.curseforge.com/minecraft/mc-mods/smooth-font)
+- [Caxton](https://modrinth.com/mod/caxton)
+- Atau mod apa pun yang memungkinkan penggantian font default Minecraft dengan font bersih dan modern seperti **Poppins**, **Inter**, atau **Segoe UI**.
+
+Penggunaan font modern akan secara signifikan meningkatkan keterbacaan dan konsistensi visual keseluruhan antarmuka yang disesuaikan oleh NekoUI.
+****
 # Versi yang didukung
 | Versi Minecraft | Status | Versi NekoUI |
 |-----------------|--------|--------------|
-| 1.21.5          | stable | v1.0.1       |
-| 1.21.4          | stable | v1.0.1       |
-| 1.21.3          | stable | v1.0.1       |
-| 1.21.2          | stable | v1.0.1       |
-| 1.21.1          | stable | v1.0.1       |
-| 1.21            | stable | v1.0.1       |
+| 1.21.x          | stable | v1.0.1       |
 | 1.20.1          | alpha  | v1.0-alpha   |
 ****
 # Kredit

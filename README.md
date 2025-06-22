@@ -44,15 +44,31 @@ To get started, download the mod .jar file from one of the trusted platforms or 
 ### Using a custom launcher?
 > If you're using MultiMC, Prism Launcher, GDLauncher, or any custom launcher, simply add the mod to the instance's mods folder, or import it using the launcher’s built-in mod manager.
 ****
+### Compatibility
+NekoUI focuses heavily on UI customization, including layout and background visuals. As a result, **mods that also modify the Minecraft user interface or background rendering** may conflict with NekoUI.
+
+Common sources of incompatibility include:
+- Mods that overhaul or replace the main menu or HUD elements.
+- Shader-related mods that modify UI layers or apply post-processing to 2D elements.
+- Mods that change how background images or textures are loaded and rendered.
+
+If you are experiencing issues such as overlapping elements, broken backgrounds, or UI not appearing as expected, please review your mod list for potential conflicts with UI-altering mods.
+****
+### Recommendations
+To enhance your UI experience while using NekoUI, it is highly recommended to install **font customization mods** that replace the default Minecraft font.
+
+Suggested mods:
+- [BetterFonts](https://www.curseforge.com/minecraft/mc-mods/betterfonts)
+- [Smooth Font](https://www.curseforge.com/minecraft/mc-mods/smooth-font)
+- [Caxton](https://modrinth.com/mod/caxton)
+- Or any mod that allows replacing Minecraft's default font with clean, modern fonts like **Poppins**, **Inter**, or **Segoe UI**.
+
+Using a modern font will significantly improve readability and the overall visual consistency of the interface customized by NekoUI.
+****
 # Supported Versions
 | Minecraft Version | Status | NekoUI Version |
 |-------------------|--------|----------------|
-| 1.21.5            | stable | v1.0.1         |
-| 1.21.4            | stable | v1.0.1         |
-| 1.21.3            | stable | v1.0.1         |
-| 1.21.2            | stable | v1.0.1         |
-| 1.21.1            | stable | v1.0.1         |
-| 1.21              | stable | v1.0.1         |
+| 1.21.x            | stable | v1.0.1         |
 | 1.20.1            | alpha  | v1.0-alpha     |
 ****
 # Credits
