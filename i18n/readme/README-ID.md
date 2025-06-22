@@ -44,7 +44,7 @@ Untuk memulai, unduh berkas mod .jar dari salah satu platform tepercaya atau sum
 ### Menggunakan launcher custom?
 > Jika Anda menggunakan MultiMC, Prism Launcher, GDLauncher, atau launcher kustom lainnya, cukup tambahkan mod ke folder mods instance, atau impor menggunakan pengelola mod bawaan launcher.
 ****
-### Kompatibilitas  
+# Kompatibilitas  
 NekoUI sangat berfokus pada kustomisasi antarmuka pengguna (UI), termasuk tata letak dan visual latar belakang. Akibatnya, **mod yang juga memodifikasi antarmuka pengguna Minecraft atau rendering latar belakang** dapat bertabrakan dengan NekoUI.  
 
 Sumber ketidakkompatibilitas yang umum meliputi:
@@ -54,7 +54,7 @@ Sumber ketidakkompatibilitas yang umum meliputi:
 
 Jika Anda mengalami masalah seperti elemen yang menimpa, latar belakang rusak, atau UI tidak tampil sesuai harapan, silakan periksa daftar mod Anda untuk potensi konflik dengan mod yang mengubah UI.
 ****
-### Rekomendasi
+# Rekomendasi
 Untuk meningkatkan pengalaman UI saat menggunakan NekoUI, sangat disarankan untuk menginstal **mod kustomisasi font** yang mengganti font default Minecraft.
 
 Mod yang disarankan:

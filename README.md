@@ -44,7 +44,7 @@ To get started, download the mod .jar file from one of the trusted platforms or 
 ### Using a custom launcher?
 > If you're using MultiMC, Prism Launcher, GDLauncher, or any custom launcher, simply add the mod to the instance's mods folder, or import it using the launcher’s built-in mod manager.
 ****
-### Compatibility
+# Compatibility
 NekoUI focuses heavily on UI customization, including layout and background visuals. As a result, **mods that also modify the Minecraft user interface or background rendering** may conflict with NekoUI.
 
 Common sources of incompatibility include:
@@ -54,7 +54,7 @@ Common sources of incompatibility include:
 
 If you are experiencing issues such as overlapping elements, broken backgrounds, or UI not appearing as expected, please review your mod list for potential conflicts with UI-altering mods.
 ****
-### Recommendations
+# Recommendations
 To enhance your UI experience while using NekoUI, it is highly recommended to install **font customization mods** that replace the default Minecraft font.
 
 Suggested mods:
