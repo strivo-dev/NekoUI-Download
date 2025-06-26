@@ -69,7 +69,15 @@ Using a modern font will significantly improve readability and the overall visua
 | Minecraft Version | Status | NekoUI Version |
 |-------------------|--------|----------------|
 | 1.21.x            | stable | v1.0.1         |
-| 1.20.1            | alpha  | v1.0-alpha     |
+| 1.20.x            | stable | v1.0.1         |
+| 1.19.x            | -      | -              |
+| 1.18.x            | -      | -              |
+| 1.17.x            | -      | -              |
+| 1.16.x            | -      | -              |
+| 1.15.x            | -      | -              |
+| 1.14.x            | -      | -              |
+| 1.13.x            | -      | -              |
+| 1.12.x            | -      | -              |
 ****
 # Credits
 > Huge thanks to everyone involved in making NekoUI possible:
@@ -80,7 +88,7 @@ Using a modern font will significantly improve readability and the overall visua
 ****
 # License
 ```
-This Project under All Rights Reserved
+NekoUI: Java Edition under All Rights Reserved LICENSE
 > © 2025 Han's Projects.
 > © NekoUI: Java Edition 2025 - All Rights Reserved.
 > © 2019-2025 Strivo Development - All Rights Reserved.
