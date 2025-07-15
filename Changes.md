@@ -10,7 +10,6 @@
 - `BackgroundBuilder` now respects `lowQualityMode` to display static-only backgrounds across the whole client.
 - Background auto-performance detection now logs clearly when low-spec hardware is detected.
 - Fix background still rendering while playing / switching window.
-- Added background to select world, select server, and options screen.
 
 [ RPC ]
 - Display of current Minecraft dimension (e.g., Overworld, Nether, The End) in Rich Presence.
