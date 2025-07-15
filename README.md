@@ -70,14 +70,6 @@ Using a modern font will significantly improve readability and the overall visua
 |-------------------|--------|----------------|
 | 1.21.x            | stable | v1.0.1         |
 | 1.20.x            | stable | v1.0.1         |
-| 1.19.x            | -      | -              |
-| 1.18.x            | -      | -              |
-| 1.17.x            | -      | -              |
-| 1.16.x            | -      | -              |
-| 1.15.x            | -      | -              |
-| 1.14.x            | -      | -              |
-| 1.13.x            | -      | -              |
-| 1.12.x            | -      | -              |
 ****
 # Credits
 > Huge thanks to everyone involved in making NekoUI possible:

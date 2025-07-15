@@ -11,10 +11,10 @@
     "1.21.3-recommended": "v1.0.1",
     "1.21.2-latest": "v1.0.1",
     "1.21.2-recommended": "v1.0.1",
-    "1.21.1-latest": "v1.0.1",
-    "1.21.1-recommended": "v1.0.1",
-    "1.21-latest": "v1.0.1",
-    "1.21-recommended": "v1.0.1",
+    "1.21.1-latest": "v1.0.2",
+    "1.21.1-recommended": "v1.0.2",
+    "1.21-latest": "v1.0.2",
+    "1.21-recommended": "v1.0.2",
     "1.20.6-latest": "v1.0.1",
     "1.20.6-recommended": "v1.0.1",
     "1.20.5-latest": "v1.0.1",
@@ -31,52 +31,66 @@
     "1.20-recommended": "v1.0.1"
   },
   "1.21.6": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Improved Clean Mode animations, fixed gradient rendering, resolved UI/button state resets on window resize, Changes rpc small image key to minecraft icon, Improved update checker and version comparison to support complex version formats and suffix ordering, Initial support minecraft (1.21.2, 1.21.3, 1.21.4, 1.21.5)."
   },
   "1.21.5": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Improved Clean Mode animations, fixed gradient rendering, resolved UI/button state resets on window resize, Changes rpc small image key to minecraft icon, Improved update checker and version comparison to support complex version formats and suffix ordering, Initial support minecraft (1.21.2, 1.21.3, 1.21.4, 1.21.5)."
   },
   "1.21.4": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Improved Clean Mode animations, fixed gradient rendering, resolved UI/button state resets on window resize, Changes rpc small image key to minecraft icon, Improved update checker and version comparison to support complex version formats and suffix ordering, Initial support minecraft (1.21.2, 1.21.3, 1.21.4, 1.21.5)."
   },
   "1.21.3": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Improved Clean Mode animations, fixed gradient rendering, resolved UI/button state resets on window resize, Changes rpc small image key to minecraft icon, Improved update checker and version comparison to support complex version formats and suffix ordering, Initial support minecraft (1.21.2, 1.21.3, 1.21.4, 1.21.5)."
   },
   "1.21.2": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Improved Clean Mode animations, fixed gradient rendering, resolved UI/button state resets on window resize, Changes rpc small image key to minecraft icon, Improved update checker and version comparison to support complex version formats and suffix ordering, Initial support minecraft (1.21.2, 1.21.3, 1.21.4, 1.21.5)."
   },
   "1.21.1": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Improved Clean Mode animations, fixed gradient rendering, resolved UI/button state resets on window resize, Changes rpc small image key to minecraft icon, Improved update checker and version comparison to support complex version formats and suffix ordering, Initial support minecraft (1.21.2, 1.21.3, 1.21.4, 1.21.5).",
     "v1.0-release+mc1.21": "Clean Mode UI with animated transitions, dynamic Discord RPC with stable timestamps, improved background handling (including image conversion, frame sorting, and static previews), optimized config for low-end devices, Fabric/Quilt mod menu, fixed deprecated APIs, refined window behavior, and native window title update.",
     "v1.0-beta2+mc1.21.1": "Refreshed the Title Screen with a cleaner look, New custom design for the Config Screen, Fixed an issue where the config screen didn't render correctly on NeoForge, and much more.",
     "v1.0-beta+mc1.21.1": "Added Discord RPC, UI Improvement, Neoforge and Quilt loaders support, 1.21 and 1.21.1 Support"
   },
   "1.21": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance, added Minecraft dimension display (Overworld, Nether, etc.) to Discord Rich Presence.",
     "v1.0.1": "Improved Clean Mode animations, fixed gradient rendering, resolved UI/button state resets on window resize, Changes rpc small image key to minecraft icon, Improved update checker and version comparison to support complex version formats and suffix ordering, Initial support minecraft (1.21.2, 1.21.3, 1.21.4, 1.21.5).",
     "v1.0.1-release+mc1.21": "Clean Mode UI with animated transitions, dynamic Discord RPC with stable timestamps, improved background handling (including image conversion, frame sorting, and static previews), optimized config for low-end devices, Fabric/Quilt mod menu, fixed deprecated APIs, refined window behavior, and native window title update.",
     "v1.0-beta2+mc1.21.1": "Refreshed the Title Screen with a cleaner look, New custom design for the Config Screen, Fixed an issue where the config screen didn't render correctly on NeoForge, and much more.",
     "v1.0-beta+mc1.21.1": "Added Discord RPC, UI Improvement, Neoforge and Quilt loaders support, 1.21 and 1.21.1 Support"
   },
   "1.20.6": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Initial support mc 1.20.x"
   },
   "1.20.5": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Initial support mc 1.20.x"
   },
   "1.20.4": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Initial support mc 1.20.x"
   },
   "1.20.3": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Initial support mc 1.20.x"
   },
   "1.20.2": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Initial support mc 1.20.x"
   },
   "1.20.1": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Initial support mc 1.20.x",
     "v1.0-alpha": "nekoui alpha test"
   },
   "1.20": {
+    "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance.",
     "v1.0.1": "Initial support mc 1.20.x"
   }
 }

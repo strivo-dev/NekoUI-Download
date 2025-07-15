@@ -70,14 +70,6 @@ Penggunaan font modern akan secara signifikan meningkatkan keterbacaan dan konsi
 |-----------------|--------|--------------|
 | 1.21.x          | stable | v1.0.1       |
 | 1.20.x          | stable | v1.0.1       |
-| 1.19.x          | -      | -            |
-| 1.18.x          | -      | -            |
-| 1.17.x          | -      | -            |
-| 1.16.x          | -      | -            |
-| 1.15.x          | -      | -            |
-| 1.14.x          | -      | -            |
-| 1.13.x          | -      | -            |
-| 1.12.x          | -      | -            |
 ****
 # Kredit
 > Terima kasih yang sebesar-besarnya kepada semua yang terlibat dalam pembuatan NekoUI:

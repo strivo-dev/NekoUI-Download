@@ -1,6 +1,30 @@
 # NekoUI Changelog
 
 ## Stable Release Versions
+### NekoUI 1.0.2 (15/07/2025)
+[ MIXIN ]
+- Added `UIInterceptorMixin` to prevent external mods from injecting background changes into NekoUI-incompatible screens.
+- Added `TitleScreenMixin` to render NekoUI's animated or static background on the main menu.
+
+[ BACKGROUND ]
+- `BackgroundBuilder` now respects `lowQualityMode` to display static-only backgrounds across the whole client.
+- Background auto-performance detection now logs clearly when low-spec hardware is detected.
+- Fix background still rendering while playing / switching window.
+- Added background to select world, select server, and options screen.
+
+[ RPC ]
+- Display of current Minecraft dimension (e.g., Overworld, Nether, The End) in Rich Presence.
+- Support for unknown/custom dimensions with fallback name formatting.
+- Minor refactoring of game state logic to support clean integration of dimension names.
+
+[ UTILITY ]
+- Added performance issues detector
+
+[ CONFIG ]
+- Preview background changed to static.
+- Added static / animated background toggle.
+- Changeable Background FPS (Frame Per Second).
+
 ### NekoUI 1.0.1 (21/06/2025)
 [ UI ]
 - Fixed gradient not appearing on the left side when toggling Clean Mode by correcting drawing coordinates and ensuring consistent render flow.
