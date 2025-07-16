@@ -9,7 +9,7 @@
 
 [![License](https://img.shields.io/badge/License-ARR-green)](https://github.strivo.xyz/nekoui-download/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/strivo-dev/nekoui-download)](https://github.strivo.xyz/nekoui-download/issues)
-[![Release](https://img.shields.io/github/v/release/strivo-dev/nekoui-download)](https://github.strivo.xyz/nekoui-download/releases)
+[![Release](https://img.shields.io/badge/release-v1.0.2-blue)](https://github.strivo.xyz/nekoui-download/releases)
 [![Crowdin](https://badges.crowdin.net/nekoui/localized.svg)](https://crowdin.com/project/nekoui)
 [![Github Star](https://img.shields.io/github/stars/strivo-dev/nekoui-download)](https://github.strivo.xyz/nekoui-download)
 
