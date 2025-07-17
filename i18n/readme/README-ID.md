@@ -31,7 +31,6 @@ Untuk memulai, unduh berkas mod .jar dari salah satu platform tepercaya atau sum
 > - [Modrinth]
 
 ### Sumber Asli
-> - [Github Release]
 > - [Website]
 ****
 # Cara Menggunakan
@@ -68,15 +67,17 @@ Penggunaan font modern akan secara signifikan meningkatkan keterbacaan dan konsi
 # Versi yang didukung
 | Versi Minecraft | Status | Versi NekoUI |
 |-----------------|--------|--------------|
-| 1.21.x          | stable | v1.0.1       |
-| 1.20.x          | stable | v1.0.1       |
+| 1.21.x          | stable | v1.0.2       |
+| 1.20.x          | stable | v1.0.2       |
 ****
 # Kredit
 > Terima kasih yang sebesar-besarnya kepada semua yang terlibat dalam pembuatan NekoUI:
-> - nokarin (Pengembang Mod, Penguji Kode, Desainer Antarmuka Pengguna)
-> - Han's (Pencipta Asli, Penerjemah, Desainer Antarmuka Pengguna)
+> - nokarin (Pengembang Mod, Penguji Kode, Desainer Antarmuka Pengguna, Penerjemah, Penguji Mod)
+> - Han's (Penemu, Penerjemah, Desainer Antarmuka Pengguna)
 > - AetherLumine (Penerjemah)
 > - howtoscriptinpython (Penerjemah untuk Rusia & Ukraina)
+> - ExplerHD (Penguji Mod)
+> - noxzym (Penguji Mod)
 ****
 # Lisensi
 ```
@@ -90,5 +91,4 @@ NekoUI: Java Edition dilindungi hak cipta sepenuhnya
 
 [CurseForge]: https://www.curseforge.com/minecraft/mc-mods/neko-ui
 [Modrinth]: https://modrinth.com/mod/nekoui
-[Github Release]: https://github.strivo.xyz/nekoui-download/releases
 [Website]: https://strivo.xyz/project/nekoui/download

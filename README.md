@@ -31,7 +31,6 @@ To get started, download the mod .jar file from one of the trusted platforms or 
 > - [Modrinth]
 
 ### Official Sources
-> - [Github Release]
 > - [Website]
 ****
 # How To Use
@@ -68,15 +67,17 @@ Using a modern font will significantly improve readability and the overall visua
 # Supported Versions
 | Minecraft Version | Status | NekoUI Version |
 |-------------------|--------|----------------|
-| 1.21.x            | stable | v1.0.1         |
-| 1.20.x            | stable | v1.0.1         |
+| 1.21.x            | stable | v1.0.2         |
+| 1.20.x            | stable | v1.0.2         |
 ****
 # Credits
 > Huge thanks to everyone involved in making NekoUI possible:
-> - nokarin (Mods Developers, Code QC, UI Designer)
-> - Han's (Original Creator, Translator, UI Designer)
+> - nokarin (Mod Developers, Code QC, UI Designer, Mod Tester)
+> - Han's (Founder, Translator, UI Designer)
 > - AetherLumine (Translator)
 > - howtoscriptinpython (Translator for russian & ukraine)
+> - ExplerHD (Mod Tester)
+> - noxzym (Mod Tester)
 ****
 # License
 ```
@@ -90,5 +91,4 @@ NekoUI: Java Edition under All Rights Reserved LICENSE
 
 [CurseForge]: https://www.curseforge.com/minecraft/mc-mods/neko-ui
 [Modrinth]: https://modrinth.com/mod/nekoui
-[Github Release]: https://github.strivo.xyz/nekoui-download/releases
 [Website]: https://strivo.xyz/project/nekoui/download

@@ -1,32 +1,67 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: "[BUG]"
+name: "Bug Report"
+about: "Report an issue or unexpected behavior in NekoUI"
+title: "[BUG] "
 labels: bug
-assignees: brokenedtzjs
+assignees: nokarin-dev
 
+labels:
+    - bug
+    - needs-triage
+    - ui
+    - performance
+    - compatibility
+    - crash
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+> **Before you begin**
+> Please make sure this bug has not already been reported.
+> You can search existing issues [here](../../issues).
 
-**To Reproduce**
-Steps to reproduce the behavior:
+<details>
+<summary>Checklist</summary>
+
+- [ ] I have checked for [existing issues](../../issues) that describe this bug.
+- [ ] I am using the latest version of NekoUI.
+- [ ] I have tested this issue with only NekoUI installed (if possible).
+- [ ] I am willing to help test/debug this if needed.
+- [ ] I have categorized the issue appropriately:
+    - [ ] UI
+    - [ ] Performance
+    - [ ] Compatibility
+    - [ ] Crash/Error
+
+</details>
+
+## Bug Description
+A clear and concise description of the issue you're experiencing.
+
+## Steps to Reproduce
+Please list the steps to reproduce the issue:
+
 1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+2. Click on '...'
+3. Scroll to '...'
+4. Observe the error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+## Expected Behavior
+What did you expect to happen instead?
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## Screenshots or Videos
+If applicable, add screenshots or a short video to illustrate the issue.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. Windows]
- - Minecraft Version [e.g. 1.20.1]
- - NekoUI Version [e.g 1.0-SNAPSHOT]
+<details>
+<summary>📋 System Information</summary>
 
-**Additional context**
-Add any other context about the problem here.
+| Key              | Value                              |
+|------------------|------------------------------------|
+| OS               | e.g. Windows 11 / macOS 13 / Linux |
+| Minecraft Version| e.g. 1.21                          |
+| NekoUI Version   | e.g. v1.0.0                        |
+| Java Version     | e.g. Java 17.0.8                   |
+| Mod Loader       | e.g. Fabric 0.15.10                |
+
+</details>
+
+## Additional Context
+Add any other relevant context (logs, error messages, mods installed, etc.) here.
