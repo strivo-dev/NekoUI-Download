@@ -6,6 +6,7 @@
 [![Modrinth](https://img.shields.io/badge/dynamic/json?color=158000&label=downloads&prefix=+%20&query=downloads&url=https://api.modrinth.com/v2/project/EZpbRipP&logo=modrinth)](https://modrinth.com/mod/nekoui)
 [![CurseForge](https://cf.way2muchnoise.eu/full_999428_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/neko-ui)
 [![Enviroment](https://img.shields.io/badge/Enviroment-Client-purple)](https://modrinth.com/mod/nekoui)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7a1df9d347724bdb9ca09869f5ad517e)](https://github.strivo.xyz/nekoui-download)
 
 [![License](https://img.shields.io/badge/License-ARR-green)](https://github.strivo.xyz/nekoui-download/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/strivo-dev/nekoui-download)](https://github.strivo.xyz/nekoui-download/issues)
