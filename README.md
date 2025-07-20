@@ -71,6 +71,34 @@ Using a modern font will significantly improve readability and the overall visua
 | 1.21.x            | stable | v1.0.2         |
 | 1.20.x            | stable | v1.0.2         |
 ****
+
+<details>
+<summary><strong>FAQ (Frequently Asked Questions)</strong></summary>
+
+- **Why isn't the animated background showing up?**
+  - Animated backgrounds are not bundled with the mod due to file size. You can download them separately from [NekoUI-Resources] or [Han's Official Discord Server].
+
+- **I've downloaded the animated background, but it's still not showing on the title screen. Why?**
+  - Make sure you've enabled the background resource pack in the *Resource Packs* menu. Then, go to the mod configuration screen to select your desired background.
+
+- **What's the minimum system requirement to run this mod smoothly?**
+  - We recommend allocating at least 4–6 GB of RAM, and using a processor equivalent to Intel Core i5 8th Gen or better with an integrated GPU.
+
+- **Where do I report bugs or issues?**
+  - Please report any bugs or issues on the [NekoUI GitHub Repository].
+
+- **Is NekoUI compatible with other UI or shader mods?**
+  - NekoUI aims to be compatible with most mods, but UI or shader mods may conflict. If you find issues, try disabling other mods temporarily or report the conflict to us.
+
+- **How do I reset NekoUI settings to default?**
+  - You can delete the NekoUI configuration file found in the `config/nekoui` folder within your Minecraft directory.
+
+- **Does NekoUI support older versions of Minecraft?**
+  - Yes, but updates are released gradually per version. If your version isn't supported yet, please wait for upcoming releases.
+
+</details>
+
+****
 # Credits
 > Huge thanks to everyone involved in making NekoUI possible:
 > - nokarin (Mod Developers, Code QC, UI Designer, Mod Tester)
@@ -90,6 +118,9 @@ NekoUI: Java Edition under All Rights Reserved LICENSE
 
 **Check our roadmap and plans on [here](https://trello.com/b/mJA0DTKD)**
 
-[CurseForge]: https://www.curseforge.com/minecraft/mc-mods/neko-ui
 [Modrinth]: https://modrinth.com/mod/nekoui
+[CurseForge]: https://www.curseforge.com/minecraft/mc-mods/neko-ui
 [Website]: https://strivo.xyz/project/nekoui/download
+[NekoUI-Resources]: https://github.strivo.xyz/nekoui-resources/releases/tag/1.0
+[NekoUI Github Repository]: https://github.strivo.xyz/nekoui-download/issues
+[Han's Official Discord Server]: https://discord.com/invite/PgfBrGrd9b
