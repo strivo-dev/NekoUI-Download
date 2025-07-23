@@ -10,7 +10,6 @@ labels:
     - ui
     - performance
     - compatibility
-    - quality-of-life
 ---
 
 > **Before submitting**, please search the [issue tracker](../../issues) to avoid duplicate requests.
@@ -35,7 +34,6 @@ Include screenshots, mockups, use-cases, or anything that helps illustrate your 
     - [ ] UI/UX
     - [ ] Performance
     - [ ] Compatibility
-    - [ ] Quality-of-life
 - [ ] I am willing to help test or contribute this feature.
 
 </details>

@@ -7,7 +7,6 @@ assignees: nokarin-dev
 
 labels:
     - bug
-    - needs-triage
     - ui
     - performance
     - compatibility
