@@ -107,6 +107,7 @@ Using a modern font will significantly improve readability and the overall visua
 > - howtoscriptinpython (Translator for russian & ukraine)
 > - ExplerHD (Mod Tester)
 > - noxzym (Mod Tester)
+> - alfaruqi (Translator for arabic, brazil, mexican, italian, german, and georgian)
 ****
 # License
 ```

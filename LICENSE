@@ -2,57 +2,75 @@ All Rights Reserved
 
 Copyright © 2025 by nokarin. All Rights Reserved.
 
+Note: This license is based on common principles of “All Rights Reserved” and designed to be clear and understandable for community modding use. While not written by a legal professional, it outlines specific usage terms intended to protect the integrity of the NekoUI project.
+
+---
+
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
 1. Definitions:
    - "Author" refers to nokarin.
    - "Project" refers to the NekoUI project, including all associated source code, assets, and documentation.
-   - "You" or "Your" refers to any individual or legal entity exercising permissions granted by this license.
-   - "Background Assets" refers to visual background files (static or animated) used by the Project, whether bundled or provided separately via external resource packs.
+   - "You" or "Your" refers to any individual or entity using the Project under this License.
+   - "Background Assets" refers to visual background files (static or animated) supported by the Project via external resource packs.
 
 2. Grant of License:
-   The Author grants You a personal, non-transferable, non-exclusive, revocable, limited license to use the Project strictly in accordance with the terms of this Agreement. You may use the Project for personal, non-commercial purposes only.
+   You are granted a personal, non-exclusive, non-transferable, and revocable license to use the Project strictly for **non-commercial** and **personal** purposes only, subject to the terms of this License.
 
 3. Restrictions:
-   You are explicitly restricted from all of the following:
-   a. Selling, leasing, renting, licensing, sublicensing, distributing, or otherwise commercializing the Project or any derivative works thereof;
-   b. Modifying, merging, adapting, translating, making derivative works of, or reverse engineering the Project, excluding Background Assets;
-   c. Removing, altering, or obscuring any proprietary notices (including copyright or trademark notices) of the Author;
-   d. Using the Project in any manner that could damage, disable, overburden, or impair the Project or interfere with any other party's use and enjoyment of the Project;
-   e. Storing, archiving, or keeping copies of the Project, in part or in whole, beyond personal, non-commercial use as outlined above;
-   f. Re-publishing, uploading, or making the Project available to the public in any form without following the Attribution and Sharing Guidelines (see Section 13).
+   You May NOT:
+   a. Sell, license, rent, or otherwise commercialize the Project or any modifications of it;
+   b. Modify, decompile, reverse engineer, adapt, or create derivative works based on the Project (excluding Background Assets);
+   c. Remove or alter any copyright notices;
+   d. Redistribute the Project in any form except through official links as stated in Section 13;
+   e. Use monetized links (e.g., ad shorteners, paid mirrors) to distribute the Project;
+   f. Use the Project in any way that is unlawful, misleading, or harmful to the community or the Author.
 
 4. Non-Commercial Use:
-   The Project is provided for non-commercial use only. You are not allowed to use the Project, or any part thereof, for any commercial purpose or for any financial gain, except as permitted in Section 13.
+   The Project is intended for free, non-commercial use. Monetization (such as ads, subscriptions, or paid access) that relies directly on the Project is not allowed unless explicitly permitted in writing.
 
 5. No Affiliation Disclaimer:
-   The Project is an independent creation and is not affiliated with, endorsed by, or associated with any third-party game, company, or brand. Any external assets (including custom backgrounds) created or used by users are the sole responsibility of their respective creators.
+   NekoUI is an independent project and is not affiliated with, endorsed by, or associated with any third-party company, game, or brand. Any external background assets used or created by users remain their own responsibility.
 
 6. Ownership:
-   The Author retains all rights, title, and interest in and to the Project, including all intellectual property rights therein. This Agreement does not convey to You any rights of ownership in or related to the Project, but only a limited right of use as expressly set forth herein.
+   All rights, title, and interest in the Project remain with the Author. This License grants usage rights only—it does not transfer ownership of the Project or any part thereof.
 
 7. Termination:
-   This License remains in effect as long as You follow all terms stated herein. If You violate any part of this License — including but not limited to modifying or redistributing the Project without permission — Your right to use the Project will be considered terminated. You must then immediately stop using the Project and delete all copies in your possession. Continued use or public distribution of the Project after your rights have been terminated will be considered a violation of copyright law and may result in reporting or legal action. The Author reserves the right to take appropriate action if the License is violated.
+   This License remains valid only while You comply with its terms. If You violate any part of it (such as by redistributing or modifying the Project without permission), Your license will be considered **revoked immediately**. You must cease all use and delete all copies of the Project. Continued use or distribution after termination may result in takedown requests or legal action via platforms or applicable law. The Author may take appropriate action to enforce this.
 
 8. Disclaimer of Warranties:
-   The Project is provided "AS IS" and "AS AVAILABLE" without warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. The Author does not warrant that the Project will meet Your requirements, operate without interruption, or be free of errors.
+   The Project is provided "AS IS" without warranty of any kind. The Author makes no guarantees of performance, stability, or fitness for any purpose.
 
 9. Limitation of Liability:
-   In no event shall the Author be liable for any damages whatsoever (including, without limitation, direct, indirect, incidental, consequential, special, or exemplary damages, or damages for loss of profits, revenue, data, or use) arising out of or in connection with the Project or this Agreement, whether in an action of contract, tort (including negligence), strict liability, or otherwise, even if advised of the possibility of such damages.
+   The Author shall not be held liable for any damages (including data loss, system failure, or other consequences) resulting from the use of the Project.
 
 10. Governing Law:
-   This Agreement shall be governed by and construed in accordance with the laws of Indonesia, without regard to its conflict of laws principles. Any legal action or proceeding arising under this Agreement will be brought exclusively in the federal or state courts located in Indonesia.
+   This Agreement is governed by the applicable laws of the Author's country (Indonesia) or the user’s local jurisdiction where appropriate.  
+   Legal disputes may be addressed through the terms of service of the hosting platform (e.g., Modrinth, CurseForge).
 
 11. Entire Agreement:
-   This Agreement constitutes the entire agreement between You and the Author regarding the use of the Project and supersedes all prior and contemporaneous written or oral agreements between You and the Author.
+   This document constitutes the entire License agreement between You and the Author regarding the use of the Project.
 
 12. Changes to this Agreement:
-   The Author reserves the right, at its sole discretion, to modify or replace this Agreement at any time. If a revision is material, the Author will provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at the Author’s sole discretion.
+   The Author reserves the right to update this License. Material changes will be announced at least 30 days in advance on official channels.
 
 13. Attribution and Sharing Guidelines:
-   a. You are allowed to use and display the Project (including in screenshots, videos, and livestreams) for content creation purposes such as YouTube videos, Twitch streams, or similar, as long as the content is not monetizing the Project directly (e.g., charging access to the mod or using the mod as the main revenue driver).
-   b. Sharing the Project is permitted only if You share the original and official links to the Project (such as the official GitHub, Modrinth, CurseForge, or the official NekoUI website).
-   c. You are not allowed to share the Project using monetized links (such as ad shorteners or paid download mirrors).
-   d. Any re-upload or redistribution must include clear attribution to the Author and must not misrepresent the source or author of the Project.
+   a. You may show the Project in videos, livestreams, or screenshots, as long as the Project is not the main monetized content.
+   b. You may share the Project only by linking to the official pages (GitHub, Modrinth, CurseForge, etc.).
+   c. Re-uploading the mod is prohibited unless authorized.
+   d. Clear attribution to the Author ("nokarin") is required in any redistributable or public-facing content involving the Project.
+
+14. Contributor Exception
+   This section applies only to the repository "NekoUI-Resources".
+
+   a. You may contribute original assets to the `assets/` folder, such as translation files or UI variants.
+   b. All contributions must be:
+      - Free of third-party rights
+      - Non-commercial
+      - Compatible with the format and structure of the repository
+   c. By submitting content, You agree that:
+      - The Author has the right to use, modify, and publish your work as part of the Project
+      - No compensation is owed beyond optional credit
+   d. This section does **not** apply to the main NekoUI codebase or other repositories.
 
 By using the Project, You acknowledge that You have read this Agreement, understand it, and agree to be bound by its terms and conditions.

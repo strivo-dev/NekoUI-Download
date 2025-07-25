@@ -78,6 +78,7 @@ Penggunaan font modern akan secara signifikan meningkatkan keterbacaan dan konsi
 > - howtoscriptinpython (Penerjemah untuk Rusia & Ukraina)
 > - ExplerHD (Penguji Mod)
 > - noxzym (Penguji Mod)
+> - alfaruqi (Penerjemah untuk arab, brazil, mexico, italia, jerman, and georgia)
 ****
 # Lisensi
 ```
