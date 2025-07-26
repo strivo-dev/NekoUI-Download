@@ -27,12 +27,12 @@
     "1.20.4-recommended": "v1.0.1",
     "1.20.3-latest": "v1.0.1",
     "1.20.3-recommended": "v1.0.1",
-    "1.20.2-latest": "v1.0.1",
-    "1.20.2-recommended": "v1.0.1",
-    "1.20.1-latest": "v1.0.1",
-    "1.20.1-recommended": "v1.0.1",
-    "1.20-latest": "v1.0.1",
-    "1.20-recommended": "v1.0.1"
+    "1.20.2-latest": "v1.0.2",
+    "1.20.2-recommended": "v1.0.2",
+    "1.20.1-latest": "v1.0.2",
+    "1.20.1-recommended": "v1.0.2",
+    "1.20-latest": "v1.0.2",
+    "1.20-recommended": "v1.0.2"
   },
   "1.21.8": {
     "v1.0.2": "Added full UI safety system with background render protection, low-spec fallback, and screen conflict prevention, improving background rendering performance."

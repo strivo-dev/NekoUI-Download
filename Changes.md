@@ -1,145 +1,204 @@
 # NekoUI Changelog
 
+## Summary of Changes
+
+### Stable Releases
+- **1.0.3 (TBD 2025)** – Added new `/rpc` command, Credits screen, multi-language support, and better background rendering across menus.
+- **1.0.2 (15/07/2025)** – Enhanced dimension-aware Discord RPC, added performance detector, and static/animated background toggle.
+- **1.0.1 (21/06/2025)** – Polished Clean Mode visuals and fixed versioning issues in updater system.
+- **1.0.0-release+mc1.21.1 (20/06/2025)** – Introduced Clean Mode, robust animated background system, and dynamic Discord presence.
+
+### Beta Releases
+- **1.0-beta2+mc1.21.1 (05/06/2025)** – Introduced animated background support and refreshed UI design.
+- **1.0-beta+mc1.21 (29/05/2025)** – Added updater, Discord RPC, mod loader support, and static background integration.
+
+### Alpha Releases
+- **v1.0-beta (31/07/2024)** – First release with Blue Archive backgrounds and basic config system.
+
+---
+
 ## Stable Release Versions
+
+### NekoUI 1.0.3 (TBD 2025)
+#### Rich Presence (RPC)
+- Added new `/rpc` command.
+- Migrated from standard Discord RPC to Discord Game SDK for better performance and support.
+
+#### Background
+- Improved background rendering system.
+- Fixed issue where the background did not render correctly on the title screen (Forge only).
+- Background is now visible on the **Select World**, **Select Server**, and **Options** screens.
+
+#### UI & Layout
+- Refined overall UI layout system for better responsiveness.
+- Enhanced button animations for a smoother experience.
+- Added a new **Credits** screen.
+
+#### Updater
+- Updated NekoUI Updater Launcher with performance and reliability improvements.
+
+#### Languages
+- Added support for new languages:
+  - Arabic
+  - Brazilian Portuguese
+  - Mexican Spanish
+  - Italian
+  - German
+  - Georgian
+
+---
+
 ### NekoUI 1.0.2 (15/07/2025)
-[ MIXIN ]
-- Added `UIInterceptorMixin` to prevent external mods from injecting background changes into NekoUI-incompatible screens.
-- Added `TitleScreenMixin` to render NekoUI's animated or static background on the main menu.
+#### Mixin
+- Added `UIInterceptorMixin` to prevent external mods from injecting incompatible background changes into NekoUI.
+- Added `TitleScreenMixin` to support rendering animated/static NekoUI backgrounds on the main menu.
 
-[ BACKGROUND ]
-- `BackgroundBuilder` now respects `lowQualityMode` to display static-only backgrounds across the whole client.
-- Background auto-performance detection now logs clearly when low-spec hardware is detected.
-- Fix background still rendering while playing / switching window.
+#### Background
+- `BackgroundBuilder` now respects `lowQualityMode` and displays static-only backgrounds across all screens.
+- Background auto-performance detection now logs when low-spec hardware is detected.
+- Fixed background rendering while in-game or when switching window focus.
 
-[ RPC ]
-- Display of current Minecraft dimension (e.g., Overworld, Nether, The End) in Rich Presence.
-- Support for unknown/custom dimensions with fallback name formatting.
-- Minor refactoring of game state logic to support clean integration of dimension names.
+#### Rich Presence (RPC)
+- Displays current dimension (e.g., Overworld, Nether, The End) in Discord Rich Presence.
+- Added fallback naming for unknown or custom dimensions.
+- Refactored internal game state logic for more reliable dimension tracking.
 
-[ UTILITY ]
-- Added performance issues detector
+#### Utility
+- Added basic performance issue detector.
 
-[ CONFIG ]
-- Preview background changed to static.
-- Added static / animated background toggle.
-- Changeable Background FPS (Frame Per Second).
+#### Config
+- Background preview now uses static images only.
+- Added toggle between static and animated background modes.
+- Adjustable background frame rate (FPS) in config.
+
+---
 
 ### NekoUI 1.0.1 (21/06/2025)
-[ UI ]
-- Fixed gradient not appearing on the left side when toggling Clean Mode by correcting drawing coordinates and ensuring consistent render flow.
-- Improved the fade-out animation for the Minecraft version text in Clean Mode; the text now no longer reappears at 0% opacity.
-- UI buttons now persist in Clean Mode without reappearing on window resize or fullscreen toggle.
-- Improve smooth transitions in and out of Clean Mode.
-- Added logic to instantly hide widgets during Clean Mode initialization without animation.
+#### UI
+- Fixed gradient not rendering on the left side when toggling Clean Mode.
+- Improved fade-out animation for Minecraft version text in Clean Mode.
+- Fixed UI buttons reappearing after window resize or fullscreen toggle in Clean Mode.
+- Smoother transition in and out of Clean Mode.
+- Added logic to hide widgets instantly during Clean Mode activation.
 
-[ RPC ]
-- Changes unactive and fallback small image key to minecraft icon
+#### Rich Presence (RPC)
+- Updated fallback and inactive small image to use the Minecraft icon.
 
-[ UPDATER ]
-- Improved the version checking system to better handle newer Modrinth update structures without explicit version state metadata.
-- Refactored the internal version comparator to support complex version formats (e.g., "v1.0.1-release+mc1.21.1").
-- Added support for suffix ordering such as `alpha < beta < release < stable` to ensure proper update detection.
-- Versions with metadata (e.g., "+mc1.21.1") are now normalized for consistent comparison.
-- Enhanced compatibility with semantic versions and Modrinth's latest versioning format.
-- Ensured backward compatibility with older version formats while improving sorting accuracy.
+#### Updater
+- Improved version checking for Modrinth’s new metadata format.
+- Refactored version comparator to support complex version identifiers.
+- Added suffix ordering (`alpha < beta < release < stable`) for proper version sorting.
+- Improved support for semantic and metadata-based versioning (e.g., `+mc1.21.1`).
+- Ensured backward compatibility with older version formats.
 
-### NekoUI 1.0-release+mc1.21.1 (20/06/2025)
-[ UI ]
-- Widgets (including image buttons and text buttons) now animate out with a directional slide + fade-out effect when Clean Mode is enabled, and fade back in when toggled off.
-- Added a new button in the title screen that toggles Clean Mode, a minimal UI state that hides all main buttons and shows only the animated background.
-- Fixed an issue where widgets would reappear when resizing or toggling fullscreen, even while in Clean Mode.
+---
 
-[ RPC ]
-- The presence now dynamically reflects the player’s game state — including transitioning between menus, singleplayer worlds, and multiplayer servers — in real-time.
-- The Discord small image key now correctly updates based on the current dimension
-- Redundant or excessive presence updates were eliminated via an internal cooldown and intelligent state comparison.
-- The presence start timestamp now remains consistent during a game session, only resetting on major context changes (e.g. entering a new world or server).
-  This prevents Discord from showing the activity as "just started" every few seconds.
+### NekoUI 1.0.0-release+mc1.21.1 (20/06/2025)
+#### UI
+- Added sliding + fading animation for widgets when toggling Clean Mode.
+- New button on title screen to toggle Clean Mode (minimal UI state).
+- Fixed issue with widgets reappearing after window resize/fullscreen toggle in Clean Mode.
 
-[ BACKGROUND ]
-- Added support for converting standard images into an in-game compatible format.
-- Resolved an issue where colors in converted images appeared distorted or overly red.
-- Transparency (alpha) is now preserved correctly during image processing.
-- Improved color handling and consistency in image previews and rendering.
-- Minor refinements to internal logging for better debugging support.
-- Fallback system for invalid or missing background names. Now gracefully falls back to:
-    - the built-in `default` background.
-- Frame sorting now uses **numerical index parsing** rather than relying on strict file naming like `frame1.png`.
-- Backgrounds with filenames containing numeric values (e.g., `bg_1.png`, `frame-1.jpg`, `1.jpeg`) are now supported.
-- Files without any number in the name (e.g., `frame.png`, `frame.jpg`, `frame.jpeg`) are **ignored** and no longer interfere with animation order.
-- Prevented loading animation backgrounds that only contain non-frame images.
-- Improved detection reliability and fallback behavior when no valid frames exist.
+#### Rich Presence (RPC)
+- Presence dynamically updates based on player's state (menus, SP/MP).
+- Dimension icon now correctly reflects the current dimension.
+- Reduced redundant presence updates using cooldown and state comparison.
+- Start timestamp remains consistent during session unless context changes (e.g., new world/server).
 
-[ IMPLEMENTATION ]
-- Implement mod menu into fabric and quilt loaders
+#### Background
+- Added automatic image format conversion for in-game use.
+- Fixed incorrect color tinting (red shift) in converted images.
+- Preserved alpha transparency correctly during image processing.
+- Improved rendering consistency and color accuracy.
+- Added fallback system for invalid or missing backgrounds (defaults to `default`).
+- Frames now sorted using numeric values from filenames (`frame-1.jpg`, `1.png`, etc.).
+- Ignored files without numeric indexes (e.g., `frame.png`).
+- Prevented background loading if no valid frames are found.
+- Improved reliability and fallback when animated backgrounds fail to load.
 
-[ DEPRECATED ]
-- Fix deprecated code on forge
-- Fix url utility using deprecated API
+#### Implementation
+- Integrated Mod Menu for Fabric and Quilt.
 
-[ CONFIG ]
-- Optimized background selection screen performance for low-end devices.
-- Only the selected background is animated during preview.
-- Non-selected backgrounds now use static preview frames to reduce GPU/CPU load.
-- Greatly reduces lag/freeze when opening the background config with many animated entries.
-- Cleaned up visual focus by highlighting only the active selection with animation and border color.
+#### Deprecated
+- Removed deprecated Forge code.
+- Replaced deprecated API usage in URL utilities.
 
-[ UPDATE ]
-- Fixed issue where `Show Details` button caused UI to overflow beyond window boundaries.
-- Fixed `pack()` causing the window to lose its rounded corners and center alignment.
-- Fixed frame not resizing properly when toggling the log area visibility.
-- Fixed components misaligning when log area was shown.
-- Replaced `setSize()` with `pack()` to dynamically adapt window size to content.
-- Frame shape (rounded rectangle) is now reapplied after `pack()` to preserve custom window design.
-- Toggling the details panel now updates both layout and shape to match the expanded height.
-- "Enable Auto-Update" and "Show Details" are now placed side by side in a horizontal layout.
-- Added minimum window size to prevent unexpected shrinking when log is hidden.
+#### Config
+- Optimized performance of background selection screen for low-end devices.
+- Only selected background animates during preview.
+- Unselected backgrounds now show static thumbnails.
+- Reduced lag when browsing many animated backgrounds.
+- Improved UI clarity by highlighting only the selected background.
 
-[ OTHER ]
-- The native window title (top bar and taskbar) now displays `NekoUI [Minecraft Version]`
+#### Updater Window
+- Fixed overflow caused by `Show Details` button.
+- Resolved loss of rounded corners after calling `pack()`.
+- Fixed resizing issues when toggling log area visibility.
+- Fixed component misalignment when log area is shown.
+- Replaced `setSize()` with `pack()` for dynamic resizing.
+- Restored custom rounded window shape after resizing.
+- Updated layout and shape dynamically based on detail panel toggle.
+- "Enable Auto-Update" and "Show Details" buttons now aligned horizontally.
+- Added minimum window size to prevent unexpected shrinking.
 
-## Beta Release Versions
+#### Other
+- Native window title (taskbar & top bar) now shows `NekoUI [Minecraft Version]`.
+
+---
+
+## Beta Releases
+
 ### NekoUI 1.0-beta2+mc1.21.1 (05/06/2025)
-[ UI ]
-- Refreshed the Title Screen with a cleaner look
-- New custom design for the Config Screen
+#### UI
+- Refreshed title screen UI.
+- New custom design for Config Screen.
 
-[ CONFIG ]
-- Fixed an issue where the config screen didn't render correctly on NeoForge
+#### Config
+- Fixed Config Screen rendering issues on NeoForge.
 
-[ BACKGROUND ]
-- [ HANDLER ] Added support for animated backgrounds
-- [ CUSTOMIZABLE ] You can now use your own animated background!
-- [ OPTIMIZE ] Improved performance when rendering backgrounds
-- [ NOTE ] Animated backgrounds work via Resource Packs. You can download the official pack [here](https://github.com/strivo-dev/NekoUI-Resources/releases/tag/1.0)
+#### Background
+- Added support for animated backgrounds.
+- Custom animated backgrounds now supported.
+- Improved rendering performance for backgrounds.
+- Animated backgrounds require a Resource Pack.  
+  → [Download here](https://github.com/strivo-dev/NekoUI-Resources/releases/tag/1.0)
 
-[ TRANSLATION ]
-- Added support for the Indonesian language
+#### Language
+- Added Indonesian translation.
 
-[ DEPRECATED ]
-- Updated and fixed deprecated code
+#### Deprecated
+- Updated deprecated code references.
+
+---
 
 ### NekoUI 1.0-beta+mc1.21 (29/05/2025)
-[ UI ]
-- Customized Title Screen
-- Animated Widget
 
-[ MOD ]
-- [ NOTIFICATION ] Added Update Reminder & Updater
-- [ RPC ] Added Discord Rich Presence
-- [ LOADER ] Supported fabric & neoforged loaders
-- [ VERSION ] Supported Minecraft Version 1.21
-- [ CONFIG ] Fix config didn't saving correctly
-- [ CONFLICT ] Fix implementation conflict
+#### UI
+- Custom title screen.
+- Animated widgets.
 
-[ BACKGROUND ]
-- [ NOTE ] On this beta version only available static background
+#### Mod Features
+- Added update reminder and built-in updater.
+- Added Discord Rich Presence.
+- Supported Fabric and NeoForge loaders.
+- Supported Minecraft 1.21.
+- Fixed config not saving properly.
+- Resolved mod conflict issues.
 
-[ OTHER ]
-- Improved Code Quality
+#### Background
+- Only static backgrounds available in this version.
 
-## Alpha Release Versions
-### NEkoUI v1.0-beta (31/7/2024)
-- [ BACKGROUND ] Added Blue Archive Background (yuuka, noa, miyu, kotama)
-- [ CONFIG ] Switch Background On Mods Config
-- [ CONFIG ] Mods Config
+#### Other
+- General code quality improvements.
+
+---
+
+## Alpha Versions
+
+### NekoUI v1.0-beta (31/07/2024)
+#### Background
+- Added Blue Archive backgrounds (Yuuka, Noa, Miyu, Kotama).
+
+#### Config
+- Background switching through mods config.
+- Initial mods config implementation.
