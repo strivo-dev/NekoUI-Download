@@ -16,7 +16,7 @@
 
 </div>
 
-NekoUI: Java Edition brings a customized user interface (CUI), and Customizable background to Minecraft: Java Edition.
+Bring a fresh UI experience to Minecraft with NekoUI and customizable backgrounds for endless variety.
 ****
 > [!NOTE]
 > This project is not affiliated with, endorsed by, or associated with any third-party game, company, or brand.
