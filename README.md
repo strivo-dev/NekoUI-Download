@@ -14,9 +14,12 @@
 [![Crowdin](https://badges.crowdin.net/nekoui/localized.svg)](https://crowdin.com/project/nekoui)
 [![Github Star](https://img.shields.io/github/stars/strivo-dev/nekoui-download)](https://github.strivo.xyz/nekoui-download)
 
-</div>
+> NekoUI: Java Edition has been migrated to [HorizonUI: Java Edition](https://github.com/nokarin-dev/HorizonUI), and will be discontinued soon.
 
 Bring a fresh UI experience to Minecraft with NekoUI and customizable backgrounds for endless variety.
+
+</div>
+
 ****
 > [!NOTE]
 > This project is not affiliated with, endorsed by, or associated with any third-party game, company, or brand.
