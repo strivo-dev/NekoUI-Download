@@ -1,23 +1,26 @@
-CHANGELOG - NEKOUI 1.0.3 (TBD 2025)
+CHANGELOG - NEKOUI 1.0.3
 [ RPC ]
-- Added new /rpc command.
-- Migrated to Discord Game SDK for better integration.
+- [ EXPERIMENTAL FEATURES ] Added new `/rpc` command.
+- [ EXPERIMENTAL FEATURES ] Migrated from standard Discord RPC to Discord Game SDK for better performance and support.
 
 [ BACKGROUND ]
-- Improved rendering performance.
-- Fixed background not showing on title screen (Forge).
-- Background now visible on Select World, Select Server, and Options screens.
+- Improve background rendering & caching.
+- Fixed issue where the background did not render correctly on the title screen (Forge only).
+- Background is now visible on the **Select World**, **Select Server**, and **Options** screens.
 
 [ UI ]
-- Refined overall layout and responsiveness.
-- Improved button animations.
-- Added new Credits screen.
+- Refined overall UI layout system for better responsiveness.
+- Improving title screen & agreement screen layout.
+- Improving UI animation for better performance.
 
 [ UPDATER ]
 - Updated NekoUI Updater Launcher for stability and speed.
 
 [ LANGUAGE ]
-- Added translations: Arabic, Brazilian Portuguese, Mexican Spanish, Italian, German, Georgian.
+- Added translations: Arabic, Brazilian Portuguese, Mexican Spanish, Italian, Germany, Georgian.
+
+[ WINDOW ]
+- Minecraft window now will show "NekoUI - [EVENT]"
 
 ==================================================================
 

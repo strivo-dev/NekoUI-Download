@@ -1,4 +1,4 @@
-![NekoUI](https://github.com/strivo-dev/nekoui-download/blob/main/assets/nekoui_banner.png)
+![NekoUI](https://github.com/strivo-dev/nekoui-download/blob/main/assets/nekoui_banner.png?raw=true)
 
 <div align="center">
 
@@ -10,23 +10,26 @@
 
 [![License](https://img.shields.io/badge/License-ARR-green)](https://github.strivo.xyz/nekoui-download/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/strivo-dev/nekoui-download)](https://github.strivo.xyz/nekoui-download/issues)
-[![Release](https://img.shields.io/badge/release-v1.0.2-blue)](https://github.strivo.xyz/nekoui-download/releases)
+[![Release](https://img.shields.io/badge/release-v1.0.3-blue)](https://modrinth.com/mod/nekoui/versions)
 [![Crowdin](https://badges.crowdin.net/nekoui/localized.svg)](https://crowdin.com/project/nekoui)
 [![Github Star](https://img.shields.io/github/stars/strivo-dev/nekoui-download)](https://github.strivo.xyz/nekoui-download)
 
-> NekoUI: Java Edition has been migrated to [HorizonUI: Java Edition](https://github.com/nokarin-dev/HorizonUI), and will be discontinued soon.
-
 Bring a fresh UI experience to Minecraft with NekoUI and customizable backgrounds for endless variety.
+
+> NekoUI: Java Edition has been migrated to [HorizonUI: Java Edition](https://github.com/nokarin-dev/HorizonUI), and will not receive any update.
 
 </div>
 
 ****
+
 > [!NOTE]
 > This project is not affiliated with, endorsed by, or associated with any third-party game, company, or brand.
 
 > [!TIP]
 > Looking for translated README files? You can find them [here](https://github.strivo.xyz/nekoui-download/tree/main/i18n/readme)
+
 ****
+
 # Installation
 To get started, download the mod .jar file from one of the trusted platforms or official sources below.
 
@@ -35,8 +38,10 @@ To get started, download the mod .jar file from one of the trusted platforms or 
 > - [Modrinth]
 
 ### Official Sources
-> - [Website]
+> - [Website] (Down)
+
 ****
+
 # How To Use
 > 1. Place the downloaded .jar file into your Minecraft mods folder:
 > 2. On Windows: C:\Users\<YourName>\AppData\Roaming\.minecraft\mods
@@ -46,7 +51,9 @@ To get started, download the mod .jar file from one of the trusted platforms or 
 
 ### Using a custom launcher?
 > If you're using MultiMC, Prism Launcher, GDLauncher, or any custom launcher, simply add the mod to the instance's mods folder, or import it using the launcher’s built-in mod manager.
+
 ****
+
 # Compatibility
 NekoUI focuses heavily on UI customization, including layout and background visuals. As a result, **mods that also modify the Minecraft user interface or background rendering** may conflict with NekoUI.
 
@@ -67,12 +74,15 @@ Suggested mods:
 - Or any mod that allows replacing Minecraft's default font with clean, modern fonts like **Poppins**, **Inter**, or **Segoe UI**.
 
 Using a modern font will significantly improve readability and the overall visual consistency of the interface customized by NekoUI.
+
 ****
+
 # Supported Versions
 | Minecraft Version | Status | NekoUI Version |
 |-------------------|--------|----------------|
-| 1.21.x            | stable | v1.0.2         |
-| 1.20.x            | stable | v1.0.2         |
+| 1.21.x            | stable | v1.0.3         |
+| 1.20.x            | stable | v1.0.3         |
+
 ****
 
 <details>
@@ -110,8 +120,10 @@ Using a modern font will significantly improve readability and the overall visua
 > - howtoscriptinpython (Translator for russian & ukraine)
 > - ExplerHD (Mod Tester)
 > - noxzym (Mod Tester)
-> - alfaruqi (Translator for arabic, brazil, mexican, italian, german, and georgian)
+> - alfaruqi (Translator for arabic, brazil, mexican, italian, germany, and georgian)
+
 ****
+
 # License
 ```
 NekoUI: Java Edition under All Rights Reserved LICENSE

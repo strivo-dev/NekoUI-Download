@@ -3,7 +3,7 @@
 ## Summary of Changes
 
 ### Stable Releases
-- **1.0.3 (TBD 2025)** – Added new `/rpc` command, Credits screen, multi-language support, and better background rendering across menus.
+- **1.0.3 (20/12/2025)** – Added new `/rpc` command, Credits screen, multi-language support, migrating to Discord Game SDK, and more.
 - **1.0.2 (15/07/2025)** – Enhanced dimension-aware Discord RPC, added performance detector, and static/animated background toggle.
 - **1.0.1 (21/06/2025)** – Polished Clean Mode visuals and fixed versioning issues in updater system.
 - **1.0.0-release+mc1.21.1 (20/06/2025)** – Introduced Clean Mode, robust animated background system, and dynamic Discord presence.
@@ -19,20 +19,20 @@
 
 ## Stable Release Versions
 
-### NekoUI 1.0.3 (TBD 2025)
+### NekoUI 1.0.3 (20/12/2025)
 #### Rich Presence (RPC)
-- Added new `/rpc` command.
-- Migrated from standard Discord RPC to Discord Game SDK for better performance and support.
+- [ EXPERIMENTAL FEATURES ] Added new `/rpc` command.
+- [ EXPERIMENTAL FEATURES ] Migrated from standard Discord RPC to Discord Game SDK for better performance and support.
 
 #### Background
-- Improved background rendering system.
+- Improve background rendering & caching.
 - Fixed issue where the background did not render correctly on the title screen (Forge only).
 - Background is now visible on the **Select World**, **Select Server**, and **Options** screens.
 
 #### UI & Layout
 - Refined overall UI layout system for better responsiveness.
-- Enhanced button animations for a smoother experience.
-- Added a new **Credits** screen.
+- Improving title screen & agreement screen layout.
+- Improving UI animation for better performance.
 
 #### Updater
 - Updated NekoUI Updater Launcher with performance and reliability improvements.
@@ -45,6 +45,9 @@
   - Italian
   - German
   - Georgian
+
+### Window
+- Minecraft window now will show "NekoUI - [EVENT]"
 
 ---
 
