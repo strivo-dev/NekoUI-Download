@@ -1,6 +1,12 @@
 {
   "homepage": "https://modrinth.com/mod/nekoui/versions",
   "promos": {
+    "1.21.11-latest": "v1.0.3",
+    "1.21.11-recommended": "v1.0.3",
+    "1.21.10-latest": "v1.0.3",
+    "1.21.10-recommended": "v1.0.3",
+    "1.21.9-latest": "v1.0.3",
+    "1.21.9-recommended": "v1.0.3",
     "1.21.8-latest": "v1.0.3",
     "1.21.8-recommended": "v1.0.3",
     "1.21.7-latest": "v1.0.3",
@@ -33,6 +39,15 @@
     "1.20.1-recommended": "v1.0.3",
     "1.20-latest": "v1.0.3",
     "1.20-recommended": "v1.0.3"
+  },
+  "1.21.11": {
+    "v1.0.3": "Initial support for 1.21.11, Added new `/rpc` command, Credits screen, multi-language support, migrating to Discord Game SDK, and more."
+  },
+  "1.21.10": {
+    "v1.0.3": "Initial support for 1.21.9-1.21.10, Added new `/rpc` command, Credits screen, multi-language support, migrating to Discord Game SDK, and more."
+  },
+  "1.21.9": {
+    "v1.0.3": "Initial support for 1.21.9-1.21.10, Added new `/rpc` command, Credits screen, multi-language support, migrating to Discord Game SDK, and more."
   },
   "1.21.8": {
     "v1.0.3": "Added new `/rpc` command, Credits screen, multi-language support, migrating to Discord Game SDK, and more.",
