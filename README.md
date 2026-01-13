@@ -16,13 +16,14 @@
 
 Bring a fresh UI experience to Minecraft with NekoUI and customizable backgrounds for endless variety.
 
-> NekoUI: Java Edition has been migrated to [HorizonUI: Java Edition](https://github.com/nokarin-dev/HorizonUI), and will not receive any update.
-
 </div>
 
 ****
 
-> [!NOTE]
+> [!CAUTION]
+> NekoUI: Java Edition has been migrated to [HorizonUI: Java Edition](https://github.com/nokarin-dev/HorizonUI), and will not receive any update.
+
+> [!IMPORTANT]
 > This project is not affiliated with, endorsed by, or associated with any third-party game, company, or brand.
 
 > [!TIP]
@@ -113,23 +114,23 @@ Using a modern font will significantly improve readability and the overall visua
 
 ****
 # Credits
-> Huge thanks to everyone involved in making NekoUI possible:
-> - nokarin (Mod Developers, Code QC, UI Designer, Mod Tester)
-> - Han's (Founder, Translator, UI Designer)
-> - AetherLumine (Translator)
-> - howtoscriptinpython (Translator for russian & ukraine)
-> - ExplerHD (Mod Tester)
-> - noxzym (Mod Tester)
-> - alfaruqi (Translator for arabic, brazil, mexican, italian, germany, and georgian)
+Huge thanks to everyone involved in making NekoUI possible:
+- nokarin (Mod Developers, Code QC, UI Designer, Mod Tester)
+- Han's (Founder, Translator, UI Designer)
+- AetherLumine (Translator)
+- howtoscriptinpython (Translator for russian & ukraine)
+- ExplerHD (Mod Tester)
+- noxzym (Mod Tester)
+- alfaruqi (Translator for arabic, brazil, mexican, italian, germany, and georgian)
 
 ****
 
 # License
 ```
 NekoUI: Java Edition under All Rights Reserved LICENSE
-> © 2025 Han's Projects.
-> © NekoUI: Java Edition 2025 - All Rights Reserved.
-> © 2019-2025 Strivo Development - All Rights Reserved.
+> © 2026 Han's Projects.
+> © NekoUI: Java Edition 2026 - All Rights Reserved.
+> © 2019-2026 Strivo Development - All Rights Reserved.
 ```
 
 **Check our roadmap and plans on [here](https://trello.com/b/mJA0DTKD)**

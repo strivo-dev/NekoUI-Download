@@ -19,7 +19,10 @@ Hadirkan pengalaman antarmuka pengguna (UI) yang segar di Minecraft dengan NekoU
 
 ****
 
-> [!NOTE]
+> [!CAUTION]
+> NekoUI: Java Edition telah bermigrasi ke [HorizonUI: Java Edition](https://github.com/nokarin-dev/HorizonUI), dan tidak akan mendapatkan update lagi.
+
+> [!IMPORTANT]
 > Proyek ini tidak berafiliasi dengan, didukung oleh, atau terkait dengan game, perusahaan, atau merek pihak ketiga mana pun.
 
 > [!TIP]
@@ -113,23 +116,23 @@ Penggunaan font modern akan secara signifikan meningkatkan keterbacaan dan konsi
 ****
 
 # Kredit
-> Terima kasih yang sebesar-besarnya kepada semua yang terlibat dalam pembuatan NekoUI:
-> - nokarin (Pengembang Mod, Penguji Kode, Desainer Antarmuka Pengguna, Penerjemah, Penguji Mod)
-> - Han's (Penemu, Penerjemah, Desainer Antarmuka Pengguna)
-> - AetherLumine (Penerjemah)
-> - howtoscriptinpython (Penerjemah untuk Rusia & Ukraina)
-> - ExplerHD (Penguji Mod)
-> - noxzym (Penguji Mod)
-> - alfaruqi (Penerjemah untuk arab, brazil, mexico, italia, jerman, and georgia)
+Terima kasih yang sebesar-besarnya kepada semua yang terlibat dalam pembuatan NekoUI:
+- nokarin (Pengembang Mod, Penguji Kode, Desainer Antarmuka Pengguna, Penerjemah, Penguji Mod)
+- Han's (Penemu, Penerjemah, Desainer Antarmuka Pengguna)
+- AetherLumine (Penerjemah)
+- howtoscriptinpython (Penerjemah untuk Rusia & Ukraina)
+- ExplerHD (Penguji Mod)
+- noxzym (Penguji Mod)
+- alfaruqi (Penerjemah untuk arab, brazil, mexico, italia, jerman, and georgia)
 
 ****
 
 # Lisensi
 ```
 NekoUI: Java Edition dilindungi hak cipta sepenuhnya
-> © 2025 Han's Projects.
-> © NekoUI: Java Edition 2025 - All Rights Reserved.
-> © 2019-2025 Strivo Development - All Rights Reserved.
+> © 2026 Han's Projects.
+> © NekoUI: Java Edition 2026 - All Rights Reserved.
+> © 2019-202 Strivo Development - All Rights Reserved.
 ```
 
 **Lihat peta jalan dan rencana kami di [sini](https://trello.com/b/mJA0DTKD)**
